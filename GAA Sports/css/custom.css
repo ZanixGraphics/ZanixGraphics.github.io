@@ -1,0 +1,159 @@
+/************************************************************
+GENERAL
+*************************************************************/
+* {
+  font-family: 'Bree Serif', serif;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.content-section {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.section-heading {
+  margin-top: 10%;
+}
+
+/************************************************************
+NAVIGATION
+*************************************************************/
+.navbar-custom {
+  background-color: #2f3238;
+  padding: 5px;
+  color: white;
+  border: none;
+}
+
+.navbar-header .navbar-brand {
+  color: white;
+}
+
+.navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-nav a:hover {
+  border: 1px solid white;
+  color: white !important;
+}
+
+/************************************************************
+SECTION: INTRODUCTION
+*************************************************************/
+.introduction-section {
+    background-color: #8ee5fa;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj48c3RvcCBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMC4xMTMiLz48c3RvcCBzdG9wLWNvbG9yPSIjMDBjNGY0IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCN2c2dnKSIgLz48L3N2Zz4=);
+    background-image: -webkit-gradient(linear, 0% 100%, 0% 0%,color-stop(0.113, rgb(255, 255, 255)),color-stop(1, rgb(0, 196, 244)));
+    /* Android 2.3 */
+    background-image: -webkit-linear-gradient(bottom,rgb(255, 255, 255) 11.3%,rgb(0, 196, 244) 100%);
+    /* IE10+ */
+    background-image: linear-gradient(to top,rgb(255, 255, 255) 11.3%,rgb(0, 196, 244) 100%);
+    background-image: -ms-linear-gradient(bottom,rgb(255, 255, 255) 11.3%,rgb(0, 196, 244) 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+.heading {
+  color: white;
+  padding-top: 20%;
+  font-weight: bold;
+}
+
+/************************************************************
+SECTION: ABOUT
+*************************************************************/
+.about-section {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  color: black;
+}
+
+.about-section a:hover, a:focus {
+  color: #6f747c;
+}
+
+/************************************************************
+SECTION: SPORTS
+*************************************************************/
+.sports-section {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  color: black;
+}
+
+/************************************************************
+SECTION: FOOTER
+*************************************************************/
+.panel-footer {
+  background-color: #2f3238;
+  height: 20%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.panel-footer > li > a {
+  color: white !important;
+}
+
+.panel-footer a:hover, a:focus {
+  color: #6f747c;
+}
+
+/************************************************************
+EXTA SMALL DEVICES (PORTRAIT PHONES, LESS THAN 576PX)
+NO MEDIA QUERY SINCE THIS IS THE DEFAULT IN BOOTSTRAP
+*************************************************************/
+
+/************************************************************
+SMALL DEVICES (LANDSCAPE PHONES, 576PX AND UP)
+*************************************************************/
+@media (min-width: 576px) {
+
+}
+
+
+/************************************************************
+MEDIUM DEVICES (TABLETS, 768PX AND UP)
+*************************************************************/
+@media (min-width: 768px) {
+
+}
+
+/************************************************************
+LARGE DEVICES (DESKTOPS, 992PX AND UP)
+*************************************************************/
+@media (min-width: 992px) {
+
+}
+
+/************************************************************
+EXTRA LARGE DEVICES (LARGE DESKTOPS, 1200PX AND UP)
+*************************************************************/
+@media (min-width: 1200px) {
+
+}
