@@ -1,0 +1,108 @@
+/************************************************************
+GENERAL
+*************************************************************/
+* {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: #89bec4;
+  font: 20px 'Open Sans Condensed', sans-serif;
+  color: #ffffff;
+  width: 100%;
+  letter-spacing: 1px;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/************************************************************
+FIRST CONTAINER
+*************************************************************/
+.bg-1 {
+  height: auto;
+  width: 100%;
+}
+
+.profile-picture {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+.btn {
+  background-color: #336496;
+  cursor: pointer;
+  font-size: .875em;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  color: #ffffff;
+  opacity: .75;
+}
+
+.portfolio .contact  {
+  background-color: #ffffff;
+}
+
+.social-icon {
+  height: 32px;
+  width: 32px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.social-icon:hover {
+  opacity: .75;
+}
+
+/************************************************************
+EXTA SMALL DEVICES (PORTRAIT PHONES, LESS THAN 576PX)
+NO MEDIA QUERY SINCE THIS IS THE DEFAULT IN BOOTSTRAP
+*************************************************************/
+
+/************************************************************
+SMALL DEVICES (LANDSCAPE PHONES, 576PX AND UP)
+*************************************************************/
+@media (min-width: 576px) {
+
+}
+
+/************************************************************
+MEDIUM DEVICES (TABLETS, 768PX AND UP)
+*************************************************************/
+@media (min-width: 768px) {
+  .inln {
+    width: auto;
+    display: inline-block;
+  }
+
+  .btn + .btn {
+    margin-left: 20px;
+  }
+}
+
+/************************************************************
+LARGE DEVICES (DESKTOPS, 992PX AND UP)
+*************************************************************/
+@media (min-width: 992px) {
+
+}
+
+/************************************************************
+EXTRA LARGE DEVICES (LARGE DESKTOPS, 1200PX AND UP)
+*************************************************************/
+@media (min-width: 1200px) {
+
+}
